@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<!-- CDN Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+
+	</script>
+	<style>
+		/* Make the image fully responsive */
+		.carousel-inner img {
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
+
+<body>
+  
+	<header>
+    <!-- Navbar( Hamburguer) -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/pag2.html">Biografia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>    
+      </ul>
+    </div>  
+    </nav>
+  </header>
+	<main>
+		<div class="jumbotron text-center text-white" style="background:blueviolet;">
+			<h1>My First Bootstrap Page</h1>
+			<p>Resize this responsive page to see the effect!</p>
+		</div>
+
+		<div id="demo" class="carousel slide" data-ride="carousel">
+
+			<!-- Indicators -->
+			<ul class="carousel-indicators">
+				<li data-target="#demo" data-slide-to="0" class="active"></li>
+				<li data-target="#demo" data-slide-to="1"></li>
+				<li data-target="#demo" data-slide-to="2"></li>
+			</ul>
+
+			<!-- The slideshow -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="/imagens2/botes.jpg" alt="Botes" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="/imagens2/beach.jpg" alt="Praia" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="/imagens2/igreja.jpg" alt="Igreja" width="1100" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<br>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 bg-warning">
+				<h3>Column 1</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+				<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+			</div>
+			<div class="col-sm-4 bg-success text-white">
+				<h3>Column 2</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+				<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+			</div>
+			<!-- <div class="col-sm-4 bg-white text-success">
+				<h3>Column 3</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+				<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+			</div> -->
+		</div>
+	</div>
+  <br>
+<div class="container">
+<div class="row">
+ <button class="btn btn-primary" type="button">Clique aqui</button>
+ <button class="btn btn-danger" type="button">Clique aqui</button>
+ <button class="btn btn-dark" type="button">Clique aqui</button>
+ <button class="btn btn-light" type="button">Clique aqui</button>
+ <button class="btn text-white" type="button" style="background:fuchsia;">Clique aqui</button>
+  </div>
+</div>
+  
+
+  </main>
+
+  <br>
+
+
+  <footer>
+    <div class="container-fluid bg-danger text-center text-white">
+
+    <p>este é um footer</p>
+    
+  </div>
+  </footer>
+
+  
+
+	<script src="script.js">
+	</script>
+</body>
+
+</html>
